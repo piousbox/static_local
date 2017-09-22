@@ -1,5 +1,5 @@
 
-html, body, .container {
+html, body, .container, div#app {
   height: 100%;
 }
 .container {
@@ -30,7 +30,6 @@ ul.header {
   position: absolute;
   right: 20px;
   top: 10px;
-  background: yellow;
 }
 ul.header li {
   display: inline;
@@ -40,6 +39,10 @@ ul.header li {
 }
 ul.header li:first-child {
   border-left: 0;
+}
+
+.tab-pane {
+  overflow-x: hidden;
 }
 
 /**
