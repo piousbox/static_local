@@ -1,5 +1,5 @@
 
-html, body, .container, div#app {
+html, body, .container {
   height: 100%;
 }
 .container {
@@ -9,10 +9,12 @@ html, body, .container, div#app {
   margin-top: 10px;
 }
 
+/**
+ * header
+ */
 ul.navbar-nav {
   margin-right: 20px;
 }
-
 .header-slim {
   width: 500px;
   position: absolute;
@@ -42,7 +44,7 @@ ul.header li:first-child {
 }
 
 .tab-pane {
-  overflow-x: hidden;
+  height: 100%;
 }
 
 /**
@@ -54,7 +56,7 @@ ul.header li:first-child {
 }
 
 .folder .tab-content {
-  overflow-x: auto;
+  /* overflow-x: auto; */
 }
 .folder-both {
   width: 100%;
@@ -67,8 +69,9 @@ ul.header li:first-child {
   width: 50%;
   height: 100%;
   float: left;
-  padding: 20px 20px 20px 0;
   padding-top: 65px;
+  padding-right: 20px;
+  padding-bottom: 132px; /* 16 + 16 + 100 */
 }
 .folder-left {
   left: 0;
@@ -103,14 +106,50 @@ ul.header li:first-child {
   width: 50%;
   float: right;
   height: 100%;
+  padding-right: 0;
 }
 .folder-ctrl {
   position: absolute;
   right: 0;
   bottom: 0;
   width: 16px;
-  padding-bottom: 16px;
+  padding-bottom: 132px; /* 16 + 16 + 100 */
   z-index: 100;
+}
+.footer-collapsed .folder-ctrl {
+  padding-bottom: 52px;
+}
+.folder-footer {
+  position: absolute;
+  bottom: 16px;
+  border: 1px solid gray;
+  width: 100%;
+  height: 100px;
+  background: #dedede;
+}
+.footer-collapsed .folder-half {
+ padding-bottom: 52px;
+}
+.footer-collapsed .folder-footer{
+  height: 20px;
+}
+.footer-collapsed .folder-footer-content {
+  display: none;
+}
+.folder-footer-ctrl {
+  position: absolute;
+  top: -20px;
+}
+.folder-footer-content {
+  padding-left: 110px;
+}
+.folder-footer .avatar {
+  height: 80px;
+  margin: 10px;
+  border: 1px solid yellow;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /**
@@ -149,5 +188,30 @@ ul.header li:first-child {
   margin-right: 20px;
 }
 
+/**
+ * map
+ */
+#worldMapContainer {
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+}
+#worldMap {
+  position: relative;
+  background: url("../images/maps/1.png");
+
+  /* width: 2206px;
+  height: 1750px;
+  background-size: 2206px 1750px; */
+
+  width: 1103px;
+  height: 875px;
+}
+.inner-link {
+  position: relative;
+  top: 200px;
+  left: 200px;
+  color: white !important;
+}
 
 
