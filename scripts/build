@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -ex
+
+git status
+git add .
+git commit -m 'autocommit'
+git push
+
+echo ok
