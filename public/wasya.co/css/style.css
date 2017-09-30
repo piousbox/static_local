@@ -2618,7 +2618,7 @@ blockquote:before {
 }
 .header-nav .nav > li .sub-menu {
     background-color: #ffffff;
-    border: 1px solid #f4f4f4;
+    border: 1px solid #d4d4d4;
     display: block;
     left: 0;
     list-style: none;
@@ -2631,7 +2631,7 @@ blockquote:before {
     z-index: 10;
 }
 .header-nav .nav > li .sub-menu li {
-    border-bottom: 1px solid #f4f4f4;
+    border-bottom: 1px solid #d4d4d4;
     position: relative;
 }
 .header-nav .nav > li .sub-menu li a {
