@@ -214,4 +214,10 @@ ul.header li:first-child {
   color: white !important;
 }
 
+/**
+ * badges
+ */
+.premium {
+  cursor: pointer;
+}
 
