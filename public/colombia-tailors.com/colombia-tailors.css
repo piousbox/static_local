@@ -1,0 +1,100 @@
+
+/**
+ * utils
+ */
+.well-wrapper {
+  margin: 1em 0;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid white;
+  box-shadow: 2px 2px gray;
+}
+.well-content {
+}
+
+
+/**
+ * header
+ */
+
+.main-header {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  height: 79px; /* logo.h+20 */
+}
+.main-header .logo {
+  position: absolute;
+  left: 50%;
+  margin-top: 10px;
+  height: 118px;
+}
+.main-header .nav {
+  position: absolute;
+}
+.main-header .nav-left {
+  margin: 30px 65px 0 0;
+  right: 50%;
+}
+.main-header .nav-right {
+  margin: 30px 0 0 65px;
+  left: 50%;
+}
+
+/* 
+ * scrollTop == 0 
+ */
+.header-top .logo { 
+  margin-top: 8px;
+  height: 118px;
+  width: 130px;
+}
+.header-top .logo img {
+  margin-left: -65px; /* -logo.w/2 */
+  height: 118px;
+  width: 130px;
+}
+
+/*
+ * scrollTop > 100
+ */
+.header-fixed {
+  background: #e8ecf2;
+  transition: background .2s;
+  -webkit-transition: background .2s;
+  height: 100px;
+}
+.header-fixed .logo {
+  height: 80px;
+  width: 80px;
+}
+.header-fixed .logo img {
+  margin-left: -40px;
+}
+.header-fixed .nav-left {
+  margin: 24px 40px 0 0;
+}
+.header-fixed .nav-right {
+  margin: 24px 0 0 40px;
+}
+
+/**
+ * main footer
+ */
+.main-footer {
+  height: 400px;
+  color: white;
+  padding-top: 1em;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.main-footer ul {
+  background: rgba(0,0,0,0.5);
+  /* background: rgba(232,236,242,0.5); */
+}
+
+
+
+
