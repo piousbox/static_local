@@ -221,3 +221,87 @@ ul.header li:first-child {
   cursor: pointer;
 }
 
+/**
+ * chapters
+ */
+.chapters {
+  overflow: auto;
+  height: 100%;
+  padding: 0 1em;
+  background: white;
+}
+.chapters h1,
+.chapters h2,
+.chapters h3 {
+  font-family: 'Lobster', cursive;
+}
+.chapters h1,
+.chapters h2 {
+  text-align: center;
+}
+h3.one-chapter::after {
+  content: ' ';
+  border-bottom: 2px solid gray;
+  height: 0;
+  display: block;
+}
+
+/**
+ * chapter
+ */
+.main-chapter {
+  background: white;
+  padding: 0 1em;
+}
+.main-chapter h1,
+.main-chapter h2,
+.main-chapter h3 {
+  text-align: center;
+}
+.main-chapter h1,
+.main-chapter h2,
+.main-chapter h3,
+.main-chapter h4,
+.main-chapter h5 {
+  font-family: 'Lobster', cursive;
+}
+.main-chapter {
+  overflow: auto;
+  height: 100%;
+}
+.main-chapter h4::after {
+  content: ' ';
+  border-bottom: 2px solid gray;
+  height: 0;
+  display: block;
+}
+
+/**
+ * quest
+ */
+.main-quest {
+  background: white;
+  padding: 1em;
+  min-height: 100%;
+}
+.main-quest h1 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
