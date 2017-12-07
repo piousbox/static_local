@@ -39,3 +39,17 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
+
+/**
+ * animation
+ */
+.swipe-anim-pre {
+  margin-left: -100%;
+  opacity: 0;
+  transition: margin-left 2s ease-out, opacity 2s ease-out;
+}
+.swipe-anim {
+  margin-left: 0;
+  opacity: 1;
+  transition: margin-left 2s ease-out, opacity 2s ease-out;
+}
