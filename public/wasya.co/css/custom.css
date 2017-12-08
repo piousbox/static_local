@@ -14,14 +14,18 @@
 
 
 /**
- * breakpoints
+ * responsive breakpoints
  */
+
 /*
  * Extra small devices (portrait phones, less than 576px)
  * No media query since this is the default in Bootstrap
  */
 #footerServices {
   display: none;
+}
+#ourProcessContent .timeline::before {
+  left: 8.33333%;
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -35,21 +39,36 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+#ourProcessContent .timeline::before {
+  left: 50%;
+}
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
 /**
  * animation
  */
+
+/* this is obsolete */
 .swipe-anim-pre {
   margin-left: -100%;
   opacity: 0;
-  transition: margin-left 2s ease-out, opacity 2s ease-out;
+  transition: opacity 2s ease-out; /* margin-left 2s ease-out */
 }
 .swipe-anim {
   margin-left: 0;
   opacity: 1;
-  transition: margin-left 2s ease-out, opacity 2s ease-out;
+  transition: opacity 2s ease-out; /* margin-left 2s ease-out */
+}
+
+.fade-anim-pre {
+  opacity: .1;
+}
+.fade-anim {
+  opacity: 1;
+  transition: opacity 2s ease-out;
 }
