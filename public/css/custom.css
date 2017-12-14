@@ -214,4 +214,32 @@ ul.header li:first-child {
   color: white !important;
 }
 
+/**
+ * utils
+ */
+.center {
+  text-align: center;
+}
+
+/** 
+ * utils - for pressroom
+ */
+.half-width {
+  width: 50%;
+}
+.animation-1 {
+  animation-duration: 2000ms;
+  animation-delay: 0ms; 
+  transition-delay: 0ms;
+}
+.style-1 {
+  display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 330px; height: 390px; margin: 0px; overflow: hidden;
+}
+.style-2 {
+  text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; height: 1430px; width: 330px; z-index: auto;
+}
+
+
+
+
 
