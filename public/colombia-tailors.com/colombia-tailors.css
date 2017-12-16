@@ -11,7 +11,15 @@
 }
 .well-content {
 }
-
+.clearfix {
+  clear: both;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
 
 /**
  * header
@@ -78,6 +86,27 @@
 .header-fixed .nav-right {
   margin: 24px 0 0 40px;
 }
+
+/**
+ * order-shirts
+ */
+.center {
+  text-align: center;
+}
+.fabrics {}
+.fabrics .fabric {
+  float: left;
+  width: 20%;
+}
+.fabrics .fabric .color {
+  width: 90%;
+  padding-top: 20%;
+}
+.fabrics .fabric .white { border: 1px solid black; }
+.fabrics .fabric .cream { background: pink; }
+.fabrics .fabric .light-blue { background: blue; }
+.fabrics .fabric .dark-blue { background: cyan; }
+.fabrics .fabric .black { background: black; }
 
 /**
  * main footer
