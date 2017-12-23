@@ -845,9 +845,12 @@ ul.sf-menu .mega_menu li
 	background-color: #42494F;
 }
 /* --- mobile menu --- */
-.mobile_menu_container
-{
+
+.mobile_menu_container {
 	display: none;
+}
+ul.mobile-menu {
+  margin-top: 1em;
 }
 .mobile-menu-switch,
 .mobile-menu,
@@ -896,7 +899,7 @@ ul.sf-menu .mega_menu li
 }
 .mobile-menu-switch
 {
-	width: 35px;
+	width: 55px;
 	padding: 15px 8px 9px;
 	border: 2px solid #ED1C24;
 }

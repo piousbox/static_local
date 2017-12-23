@@ -72,3 +72,16 @@
   opacity: 1;
   transition: opacity 2s ease-out;
 }
+
+/*
+ * team 
+ */
+.team-member p {
+  margin: 0;
+}
+.team-member ul.readable-links {
+}
+.team-member ul.readable-links li {
+  display: inline;
+  margin-right: 2em;
+}

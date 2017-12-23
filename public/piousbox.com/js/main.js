@@ -96,16 +96,6 @@ function gm_authFailure()
 }
 jQuery(document).ready(function($){
 	"use strict";
-	//mobile menu
-	$(".mobile-menu-switch").click(function(event){
-		event.preventDefault();
-		if(!$(".mobile-menu").is(":visible"))
-			$(".mobile-menu-divider").css("display", "block");
-		$(".mobile-menu").slideToggle(500, function(){
-			if(!$(".mobile-menu").is(":visible"))
-				$(".mobile-menu-divider").css("display", "none");
-		});
-	});
 	
 	//slider
 	$(".slider").carouFredSel({
