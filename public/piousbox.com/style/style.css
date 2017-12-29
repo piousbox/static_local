@@ -1046,15 +1046,14 @@ ul.mobile-menu {
 {
 	color: #FFF;
 }
-.slider_content_box .post_details li.category:after
-{
+.slider_content_box .post_details li.category:after {
 	background: none repeat scroll 0 0 #FFF;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    margin-top: 13px;
-    width: 30px;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  margin-top: 13px;
+  width: 30px;
 }
 .slider_content_box p
 {
@@ -1376,11 +1375,10 @@ a.slider_control:hover
 {
 	margin-top: 30px;
 }
-.post img
-{
+.post img {
 	position: relative;
 	display: block;
-	width: 100%;
+  width: 100%;
 	opacity: 1;
 	transition: opacity 0.4s ease-in-out 0s;
 }
@@ -1487,25 +1485,31 @@ span.odometer.number
 {
 	margin-top: 11px;
 }
-.post .post_details
-{
+.post .post_details {
 	clear: both;
 	float: left;
 	margin-top: 25px;
 }
-.post .post_details+p
-{
+ul.post_details {
+  margin: 2em 0;
+}
+.post .post_details+p {
 	clear: both;
 	float: left;
 }
-.post_details li
-{
-	float: left;
+.NewsitemGallery ul.photos {
+}
+.NewsitemGallery ul.photos li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.post_details li {
+	display: inline;
 	font-family: arial;
 	font-size: 12px;
 }
-.post_details li.category
-{
+.post_details li.category {
 	font-weight: bold;
 	background: #ED1C24;
 	padding: 14px 15px 13px 14px;
@@ -1618,8 +1622,8 @@ ul.post_details.simple li.date
 {
 	margin-top: 30px;
 }
-.blog.big img
-{
+.blog.big,
+img.w330 {
 	width: 330px;
 }
 .blog.small img
@@ -2463,17 +2467,15 @@ li.detail.category
 	background: url("../images/icons/other/comment_reply.png") no-repeat;
 }
 /* --- pagination --- */
-.pagination
-{
+.pagination {
 	clear: both;
 }
-.pagination li
-{
+.pagination li {
 	float: left;
-	margin-left: 5px;
+	margin-left: 6px;
+  margin-bottom: 6px;
 }
-.pagination li:first-child
-{
+.pagination li:first-child {
 	margin-left: 0;
 }
 .pagination li.left,
