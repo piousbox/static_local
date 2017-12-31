@@ -289,6 +289,14 @@ h3.one-chapter::after {
   text-align: center;
 }
 
+/**
+ * bjjc video
+ */
+.video-modal {
+  width: 90%;
+  text-align: center;
+
+}
 
 
 
