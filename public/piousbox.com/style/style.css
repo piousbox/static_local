@@ -4153,3 +4153,12 @@ body.lock-position
 	width: 100%;
 	height: 100%;
 }
+
+/**
+ * social buttons
+ */
+.social-buttons {}
+.SocialMediaShareButton,
+.socialMediaCount {
+  float: left;
+}
