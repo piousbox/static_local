@@ -85,3 +85,99 @@
   display: inline;
   margin-right: 2em;
 }
+
+.description p {
+  text-align: justify;
+}
+.description p::first-letter {
+  font-size: 2em;
+}
+
+/**
+ * extra fancy star
+ */
+@media (min-width: 768px) {
+.star-wrapper {
+  margin-left: -160px;
+  margin-bottom: 200px;
+}
+.star {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  position: relative;
+}
+.star em {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  width: 200px;
+  height: 200px;
+}
+.star > div {
+  position: absolute;
+}
+.star > div > h5 {
+  width: 200px;
+  z-index: 2;
+  position: relative;
+  font-size: 2em;
+}
+.star > div:nth-child(1) {
+  top: 0;
+  left: 300px;
+}
+.star > div:nth-child(1) .arrow {
+  transform: rotate(0deg);
+}
+.star > div:nth-child(2) {
+  top: 207.295px; 
+  left: 585.317px;
+}
+.star > div:nth-child(2) .arrow {
+  transform: rotate(72deg);
+}
+.star > div:nth-child(3) {
+  top: 542.705098312px;
+  left: 476.335575688px;
+}
+.star > div:nth-child(3) .arrow {
+  transform: rotate(144deg);
+}
+.star > div:nth-child(4) {
+  top: 542.705098312px;
+  left: 123.6644px;
+}
+.star > div:nth-child(4) .arrow {
+  transform: rotate(216deg);
+}
+.star > div:nth-child(5) {
+  top: 207.295px; 
+  left: 14.683px;
+}
+.star > div:nth-child(5) .arrow {
+  transform: rotate(288deg);
+}
+} /* end media query */
+.star em {
+  text-align: center;
+  margin: auto;
+  font-size: 2em;
+  display: block;
+  padding: 80px 0;
+}
+.star div .arrow {
+  width: 160px; 
+  height: 90px;
+  background: cyan;
+  border-left: 5px solid #ff9bf3; /* #fcbcff */
+  position: relative;
+  z-index: 1;
+  background: url('../images/arrow.jpg') center center no-repeat;
+}
+
+
+.drop-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 2em;
+}
