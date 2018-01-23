@@ -20,11 +20,9 @@
 .float-right {
   float: right;
 }
-.dropShadow {
+.dropShadow,
+.drow-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.selected {
-  border: 1px solid red;
 }
 
 /**
@@ -99,21 +97,46 @@
 .center {
   text-align: center;
 }
-.fabrics {}
+.fabrics {
+  margin-bottom: 2em;
+}
 .fabrics .fabric {
   float: left;
   width: 19%;
   margin-right: 1%;
+  padding: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .fabrics .fabric .color {
   width: 90%;
   padding-top: 20%;
 }
-.fabrics .fabric .white { border: 1px solid black; }
-.fabrics .fabric .cream { background: pink; }
-.fabrics .fabric .light-blue { background: blue; }
-.fabrics .fabric .dark-blue { background: cyan; }
-.fabrics .fabric .black { background: black; }
+.fabrics .fabric .white,
+.white-color { 
+    border: 1px solid black; 
+}
+.fabrics .fabric .cream,
+.pink-color {
+    background: pink; 
+}
+.fabrics .fabric .light-blue,
+.light_blue-color {
+    background: blue; 
+}
+.fabrics .fabric .dark-blue,
+.dark_blue-color {
+    background: cyan; 
+}
+.fabrics .fabric .black,
+.black-color {
+    background: black; 
+}
+.dark_green-color {
+    background: #003300;
+}
+.fabrics .fabric.selected {
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+}
 
 /**
  * main footer
