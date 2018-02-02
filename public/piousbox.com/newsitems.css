@@ -1,4 +1,79 @@
 
+/**
+ * utils
+ */
+
+.grayBg {
+  background: gray;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.floatRight,
+.float-right {
+  float: right;
+}
+
+.floatLeft,
+.float-left {
+  float: left;
+}
+
+.center {
+  text-align: center;
+}
+
+/**
+ * header, main menu stuff
+ */
+.main-logo {
+  margin: 2em 0;
+}
+.main-logo h1 {
+  font-size: 3em;
+  color: red;
+}
+.menu-primary {
+  border-top: 3px solid gray;
+  color: black;
+  font-size: 1.2em;
+  padding: 10px 0;
+}
+.menu-primary li {
+  display: inline;
+}
+.menu-primary li a {
+  margin: 1em;
+  padding-right: 1em;
+  line-height: 1em;
+  border-right: 1px solid gray;
+}
+.menu-primary ul:first-child {
+  border-left: 1px solid gray;
+}
+.menu-primary li a {
+  border: 0 2px solid gray;
+}
+
+.menu-secondary {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 5px 0;
+  margin-bottom: 1em;
+}
+.menu-secondary li {
+  display: inline;
+  padding: 1em;
+}
+.menu-secondary li a {
+}
+
+/**
+ * newsitems
+ */
+
 .newsitems button.btn {
   margin-right: 1em;
   margin-bottom: 1em;
