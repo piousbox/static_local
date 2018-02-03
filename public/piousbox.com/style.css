@@ -1,4 +1,9 @@
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /**
  * utils
  */
@@ -73,6 +78,19 @@
 /**
  * newsitems
  */
+.NewsitemGallery ul.photos {
+}
+.NewsitemGallery ul.photos li {
+  display: inline;
+  margin-right: 10px;
+}
+.NewsitemGallery ul li {
+  display: inline;
+}
+.NewsitemGallery ul li.category {
+  background: gray;
+  padding: .5em;
+}
 
 .newsitems button.btn {
   margin-right: 1em;

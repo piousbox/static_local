@@ -1497,12 +1497,6 @@ ul.post_details {
 	clear: both;
 	float: left;
 }
-.NewsitemGallery ul.photos {
-}
-.NewsitemGallery ul.photos li {
-  display: inline;
-  margin-right: 10px;
-}
 
 .post_details li {
 	display: inline;
