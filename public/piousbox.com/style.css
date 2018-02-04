@@ -31,6 +31,36 @@
 }
 
 /**
+ * Footer
+ */
+.mainFooter {
+	/* background: #363B40; */
+  background: #cecece;
+	padding-top: 2em;
+}
+.mainFooter .box-header {
+  color: white;
+}
+.footer {
+	padding-bottom: 30px;
+}
+.footer p {
+	color: #D7DCE0;
+}
+.footer a {
+	color: #FFF;
+	line-height: 140%;
+}
+ul.footer-menu li {
+  display: inline;
+  padding: 1em;
+}
+.footer4 {
+  background: #999;
+  text-align: center;
+}
+
+/**
  * header, main menu stuff
  */
 .main-logo {
@@ -46,12 +76,16 @@
   font-size: 1.2em;
   padding: 10px 0;
 }
-.menu-primary li {
+.menu-primary ul {
+  margin: 0;
+  padding: 0;
+}
+.menu-primary ul li {
   display: inline;
 }
-.menu-primary li a {
-  margin: 1em;
-  padding-right: 1em;
+.menu-primary ul li a {
+  margin: 1em 0 1em 1em;
+  padding: 0 1em 0 0;
   line-height: 1em;
   border-right: 1px solid gray;
 }
@@ -68,6 +102,9 @@
   padding: 5px 0;
   margin-bottom: 1em;
 }
+.menu-secondary ul {
+  margin: 0;
+}
 .menu-secondary li {
   display: inline;
   padding: 1em;
@@ -76,13 +113,37 @@
 }
 
 /**
+ * ads
+ */
+.adContainer {
+  margin-bottom: 1em;
+}
+
+/**
+ * Meta
+ */
+.Meta .tag {
+  background: #cecece;
+  padding: .2em;
+}
+
+/**
  * newsitems
  */
+a.readMore {
+  border: 2px solid #70e9ff;
+  padding: .5em;
+  border-radius: 5px;
+  text-align: center;
+}
+
 .NewsitemGallery ul.photos {
 }
 .NewsitemGallery ul.photos li {
   display: inline;
-  margin-right: 10px;
+}
+.NewsitemGallery ul.meta {
+  margin: 1em 0;
 }
 .NewsitemGallery ul li {
   display: inline;
@@ -90,9 +151,35 @@
 .NewsitemGallery ul li.category {
   background: gray;
   padding: .5em;
+  margin-right: 1em;
 }
 
 .newsitems button.btn {
   margin-right: 1em;
   margin-bottom: 1em;
+}
+
+/**
+ * Tags
+ */
+.FeatureTag h3.header {
+  background: #cecece;
+  padding: .2em;
+  color: white;
+}
+.tagContainer {
+  margin: 0 auto 2em;
+  width: 80%;
+}
+.TagWidget {
+  border-left: 2px solid #cecece;
+  border-top: 4px solid #cecece;
+  padding-left: .2em;
+  margin-bottom: 1em;
+}
+.TagWidget .box-header {
+  background: #cecece;
+  margin-left: 1em;
+  padding: .2em 1em;
+  display: inline;
 }
