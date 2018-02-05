@@ -6,3 +6,19 @@
   color: black;
   padding: 0.5em;
 }
+
+/**
+ * CityShow Tag
+ */
+.CityShow .tags {
+  margin: 1em 0;
+}
+.tags .tag {
+  padding: .5em;
+  background: #cecece;
+  margin-right: .5em;
+}
+.tags h4 {
+  display: inline;
+  margin-right: .5em;
+}
