@@ -72,6 +72,27 @@
   width: 130px;
 }
 
+button.scrollTop {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    border-color: #efbb20;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0;
+    bottom: 15px;
+    box-shadow: 2px 2px 12px -5px #000000;
+    color: #efbb20;
+    cursor: pointer;
+    display: none;
+    height: 40px;
+    line-height: 26px;
+    margin: 0;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    width: 40px;
+    z-index: 999;
+}
+
 /*
  * scrollTop > 100
  */
