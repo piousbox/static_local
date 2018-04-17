@@ -155,7 +155,7 @@ a.readMore {
   display: inline;
 }
 .NewsitemGallery ul li.category {
-  background: gray;
+  background: #dedede;
   padding: .5em;
   margin-right: 1em;
 }
