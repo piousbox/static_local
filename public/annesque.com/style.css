@@ -1,0 +1,63 @@
+
+/**
+ * utils
+ */
+.center {
+  text-align: center;
+}
+.clearfix {
+  clear: both;
+}
+.dropShadow, .drop-shadow {
+  box-shadow: 10px 10px 5px grey;
+  margin-bottom: 2em;
+}
+/**
+ * main header
+ */
+.main-header .search {
+  text-align: right;
+  background: #cecece;
+}
+.main-header .title {
+  text-align: center;
+}
+.main-header .subtitle {
+  text-align: center;
+}
+.main-header .divider-large {
+  border-top: 5px solid gray;
+}
+.main-header .divider-small {
+  border-top: 2px solid gray;
+}
+.main-menu > .item {
+  display: inline;
+  border-right: 2px solid gray;
+}
+
+.main-menu a {
+  height: 50px;
+  line-height: 50px;
+  padding: 15px;
+  font-size: 18px;
+  
+}
+.second-menu .item {
+  display: inline;
+  border-right: 2px solid gray;
+}
+.second-menu a {
+  padding: 15px;
+}
+
+/**
+ * footer
+ */
+.main-footer {
+  height: 200px;
+  background: #cecece;
+  padding-top: 2em;
+  text-align: center;
+}
+
