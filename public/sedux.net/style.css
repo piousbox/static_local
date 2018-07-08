@@ -1,0 +1,137 @@
+
+/**
+ * Utils
+ */
+html, body {
+  height: 100%;
+}
+#app {
+  height: 100%;
+  overflow: auto;
+}
+.page-content {
+  padding-top: 32px;
+  margin-top: 32px;
+}
+.divider {
+  margin: 2rem 0;
+  border-bottom: 1px solid red;
+}
+.center {
+  text-align: center;
+}
+.modal {
+  overflow: auto;
+}
+
+
+/**
+ * MainHeader
+ */
+.MainHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  background: gray;
+  color: white;
+}
+.MainHeader .inner {
+  padding-left: 1rem;
+  height: 32px;
+  line-height: 32px;
+}
+
+/**
+ * MainFooter
+ */
+.MainFooter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 32px;
+  background: gray;
+  color: white;
+  text-align: center;
+}
+
+.MainFooter .inner {
+  height: 32px;
+  line-height: 32px;
+}
+
+/**
+ * Login
+ */
+.Home h4.modal-title {
+  text-align: center;
+}
+
+/**
+ * Login
+ */
+.Home h4.modal-title {
+  text-align: center;
+}
+.Home .left-half {
+  border-bottom: 1px solid red;
+  margin-bottom: 2rem;
+}
+.request-account {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/**
+ * Register
+ */
+.Register h4.modal-title {
+  text-align: center;
+}
+/**
+ * Register
+ */
+.Register h4.modal-title {
+  text-align: center;
+}
+/**
+ * Register
+ */
+.Register h4.modal-title {
+  text-align: center;
+}
+.Register .group {
+  padding: 1rem;
+  border: 1px solid red;
+  margin-bottom: 1rem;
+}
+
+
+
+/**
+ * Breakpoints
+ */
+/* default is xs */
+
+/* small */
+@media (min-width: 576px) { 
+}
+
+/* medium */
+@media (min-width: 768px) { 
+}
+
+/* large */
+@media (min-width: 992px) {
+  .Home .left-half {
+    border-right: 1px solid red;
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+}
+
+/* xxl */
+@media (min-width: 1200px) { }
