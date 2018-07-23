@@ -45,7 +45,8 @@ html, body {
 .massiveBg {
   background: url(images/3000x1700/bg.jpg);
   background-size: cover;
-  height: 100%;
+  min-height: 100%;
+  background-attachment: fixed;
 }
 
 /**
