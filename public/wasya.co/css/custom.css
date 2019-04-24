@@ -181,3 +181,18 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 2em;
 }
+
+.pricing .tier {
+  padding: 2em;
+  min-height: 340px;
+  margin-bottom: 30px;
+}
+.pricing .tier h3 {
+  border-bottom: 2px solid #5e7f91;
+}
+.pricing .tier ul {
+  padding-left: 1.2em;
+  font-size: 1.2em;
+}
+
+
